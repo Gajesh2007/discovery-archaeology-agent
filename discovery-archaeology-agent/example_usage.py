@@ -47,6 +47,17 @@ def analyze_invention(invention_name: str):
         
         print(f"\n💡 Discoveries in Chain: {len(analysis['discoveries'])}")
         
+        # Show the actual discoveries
+        if analysis['discoveries']:
+            print(f"\n🔗 Discovery Chain:")
+            for i, discovery in enumerate(analysis['discoveries'], 1):  # Show all discoveries
+                year_str = f" ({discovery['year']})" if discovery['year'] else ""
+                print(f"  {i}. {discovery['title']}{year_str}")
+                print(f"     {discovery['description'][:120]}...")
+                if discovery['discovery_type']:
+                    print(f"     Type: {discovery['discovery_type']}")
+                print()
+        
         return data["id"]
     else:
         print(f"❌ Error: {response.status_code} - {response.text}")

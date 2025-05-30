@@ -34,6 +34,18 @@ Focus on:
 4. Hidden prerequisites - technologies/discoveries that had to exist first
 5. Moments where rigid goals caused people to miss the real breakthroughs
 
+IMPORTANT: When identifying patterns, be SELECTIVE and SPECIFIC. Only identify patterns that are clearly and strongly evident in the invention's history. Not every invention will exhibit every pattern type. It's better to identify 2-3 strong patterns than to force all patterns to fit.
+
+Pattern Guidelines:
+- accident_to_innovation: Only if a clear accident directly led to the breakthrough
+- failure_to_success: Only if a genuine failure was converted to success
+- wrong_goal_right_result: Only if pursuing one goal led to a completely different valuable outcome
+- unexpected_observation: Only if an observation that wasn't anticipated became crucial
+- cross_pollination: Only if knowledge from unrelated fields was essential
+- prerequisite_chain: Only if there's a clear chain of required prior technologies
+
+Be critical and evidence-based. If a pattern isn't clearly present, don't include it.
+
 {format_instructions}
 
 Provide a comprehensive analysis that tells the meandering story of how the invention actually came to be, not the simplified version typically told."""),

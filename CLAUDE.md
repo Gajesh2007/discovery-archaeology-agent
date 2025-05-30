@@ -20,7 +20,6 @@ Visual timeline + narrative showing the meandering path from unrelated discoveri
 
 ## Tech Stack
 
-- Don't work on Frontend yet, but keep the APIs to ping it
 - Use Poetry (Python) 
 - Use Langchain
 - Use OpenAI O3 (o3-2025-04-16) for getting all this information, make sure you use structured outputs
