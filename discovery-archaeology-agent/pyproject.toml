@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "discovery-archaeology-agent"
+version = "0.1.0"
+description = ""
+authors = ["Gajesh Naik <robogajesh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.11.5"
+sqlalchemy = "^2.0.41"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+langchain = "^0.3.25"
+langchain-openai = "^0.3.18"
+python-dotenv = "^1.1.0"
+pydantic-settings = "^2.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
